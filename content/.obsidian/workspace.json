@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/crypto currency.md",
+                "file": "post/github action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "crypto currency"
+              "title": "github action"
             }
           },
           {
@@ -107,8 +107,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/crypto currency.md",
-                "collapseAll": false,
+                "file": "post/github action.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "crypto currency 的反向链接列表"
+              "title": "github action 的反向链接列表"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/crypto currency.md",
+                "file": "post/github action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "crypto currency 的出链列表"
+              "title": "github action 的出链列表"
             }
           },
           {
@@ -153,13 +153,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/crypto currency.md"
+                "file": "post/github action.md"
               },
               "icon": "lucide-list",
-              "title": "crypto currency 的大纲"
+              "title": "github action 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,11 +177,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "41025267e889df22",
+  "active": "ef87ecf8f690a542",
   "lastOpenFiles": [
-    "post/placeholder-text/index.md",
     "post/crypto currency.md",
+    "post/github action.md",
+    "categories/编程/_index.md",
     "categories/经济/_index.md",
+    "categories/编程",
+    "post/placeholder-text/index.md",
     "categories/笔记/_index.md",
     "_index.md",
     "categories/经济",
