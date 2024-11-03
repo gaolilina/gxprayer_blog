@@ -113,4 +113,7 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="常用action">常用action
 &lt;/h2>&lt;h3 id="checkout">checkout
-&lt;/h3></description></item></channel></rss>
+&lt;/h3>&lt;h2 id="常见问题">常见问题
+&lt;/h2>&lt;ol>
+&lt;li>push 代码403，权限被拒，需要在settings里为action开放写权限。&lt;/li>
+&lt;/ol></description></item></channel></rss>

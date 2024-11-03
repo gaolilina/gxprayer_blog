@@ -113,5 +113,8 @@
 &lt;/div>
 &lt;/div>&lt;h2 id="常用action">常用action
 &lt;/h2>&lt;h3 id="checkout">checkout
-&lt;/h3></description></item><item><title>加密货币</title><link>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p>
+&lt;/h3>&lt;h2 id="常见问题">常见问题
+&lt;/h2>&lt;ol>
+&lt;li>push 代码403，权限被拒，需要在settings里为action开放写权限。&lt;/li>
+&lt;/ol></description></item><item><title>加密货币</title><link>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p>
 &lt;p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p></description></item></channel></rss>
