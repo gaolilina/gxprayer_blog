@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "20d66e1bbb0242de",
+    "id": "f50e88c996030e08",
     "type": "split",
     "children": [
       {
-        "id": "51bd9bf8c5ae6c05",
+        "id": "207b3f6399c838aa",
         "type": "tabs",
         "children": [
           {
-            "id": "ef87ecf8f690a542",
+            "id": "d4852c8ceac24fc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/github action.md",
+                "file": "content/post/github action.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "github action"
-            }
-          },
-          {
-            "id": "29194e9b747f346e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "categories/笔记/_index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_index"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "af18a6b911312802",
+    "id": "b82e555b303cba9b",
     "type": "split",
     "children": [
       {
-        "id": "589a2dfe2d6758da",
+        "id": "e87ca3adb66364ce",
         "type": "tabs",
         "children": [
           {
-            "id": "41025267e889df22",
+            "id": "140ad0f3055cf4c5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +47,7 @@
             }
           },
           {
-            "id": "ca7dbde996031d83",
+            "id": "d6f2aec90b2585e6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +64,7 @@
             }
           },
           {
-            "id": "4ca891d99ce724ed",
+            "id": "e6cd7fa3588dd2da",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,21 +80,21 @@
     "width": 300
   },
   "right": {
-    "id": "cd223b4543d5195d",
+    "id": "19da2ca3009db709",
     "type": "split",
     "children": [
       {
-        "id": "319429e16d8d1d5c",
+        "id": "534289c303c452ba",
         "type": "tabs",
         "children": [
           {
-            "id": "bdea908ceac8ccb8",
+            "id": "9fd7502a74f14caf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/github action.md",
-                "collapseAll": true,
+                "file": "content/post/github action.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -121,12 +107,12 @@
             }
           },
           {
-            "id": "28e7c8c2f21323a1",
+            "id": "e8dda23d147b27c3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/github action.md",
+                "file": "content/post/github action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -135,7 +121,7 @@
             }
           },
           {
-            "id": "bf58b719ddef9b20",
+            "id": "7853986e54181bc8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,19 +134,19 @@
             }
           },
           {
-            "id": "b87675b62b49d5b8",
+            "id": "89948bf62bb2c29f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/github action.md"
+                "file": "content/post/github action.md"
               },
               "icon": "lucide-list",
               "title": "github action 的大纲"
             }
           },
           {
-            "id": "ea913e857142f270",
+            "id": "d1623058d446dcbe",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -187,30 +173,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef87ecf8f690a542",
+  "active": "140ad0f3055cf4c5",
   "lastOpenFiles": [
-    "post/crypto currency.md",
-    "post/github action.md",
-    "categories/编程/_index.md",
-    "categories/经济/_index.md",
-    "categories/编程",
-    "post/placeholder-text/index.md",
-    "categories/笔记/_index.md",
-    "_index.md",
-    "categories/经济",
-    "categories/Test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
-    "_index.zh-cn.md",
-    "page/search/index.md",
-    "categories/笔记",
-    "page/archives/index.md",
-    "post/markdown-syntax/index.md",
-    "post/chinese-test/index.zh-cn.md",
-    "page/links/index.md",
-    "post/chinese-test/luca-bravo-alS7ewQ41M8-unsplash.jpg",
-    "post/chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
-    "post/chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
-    "post/rich-content/index.md",
-    "page/about/index.zh-cn.md",
-    "page/about/index.md"
+    "content/post/crypto currency.md"
   ]
 }

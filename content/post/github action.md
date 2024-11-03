@@ -78,3 +78,7 @@ jobs:
 ## 常用action
 
 ### checkout
+
+## 常见问题
+
+1. push 代码403，权限被拒，需要在settings里为action开放写权限。
