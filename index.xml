@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gxPrayer's Blog</title><link>https://example.com/</link><description>Recent content on gxPrayer's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>增量学习</title><link>https://example.com/p/%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0/</guid><description/></item><item><title>github action</title><link>https://example.com/p/github-action/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/github-action/</guid><description>&lt;h2 id="简介">简介
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gxPrayer's Blog</title><link>https://example.com/</link><description>Recent content on gxPrayer's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>保险业</title><link>https://example.com/p/%E4%BF%9D%E9%99%A9%E4%B8%9A/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://example.com/p/%E4%BF%9D%E9%99%A9%E4%B8%9A/</guid><description/></item><item><title>保险业</title><link>https://example.com/p/%E4%BF%9D%E9%99%A9%E4%B8%9A/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://example.com/p/%E4%BF%9D%E9%99%A9%E4%B8%9A/</guid><description/></item><item><title>增量学习</title><link>https://example.com/p/%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0/</link><pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%A2%9E%E9%87%8F%E5%AD%A6%E4%B9%A0/</guid><description/></item><item><title>github action</title><link>https://example.com/p/github-action/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/github-action/</guid><description>&lt;h2 id="简介">简介
 &lt;/h2>&lt;p>持续集成 (CI) 是一种需要频繁提交代码到共享仓库的软件实践。可以包括代码语法检查（检查样式格式）、安全性检查、代码覆盖率、功能测试及其他自定义操作。&lt;/p>
 &lt;p>&lt;a class="link" href="https://github.com/features/actions" target="_blank" rel="noopener"
 >GitHub Actions&lt;/a> 是 GitHub 的&lt;a class="link" href="https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html" target="_blank" rel="noopener"
@@ -116,10 +116,10 @@
 &lt;/h3>&lt;h2 id="常见问题">常见问题
 &lt;/h2>&lt;ol>
 &lt;li>push 代码403，权限被拒，需要在settings里为action开放写权限。&lt;/li>
-&lt;/ol></description></item><item><title>加密货币</title><link>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</guid><description>&lt;h2 id="一定义">一、定义
+&lt;/ol></description></item><item><title>加密货币</title><link>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/</guid><description>&lt;img src="https://backblaze.gxprayer.cn/2025/02/%E6%AF%94%E7%89%B9%E5%B8%81icon.png" alt="Featured image of post 加密货币" />&lt;h2 id="一定义">一、定义
 &lt;/h2>&lt;p>&lt;strong>加密货币&lt;/strong>：&lt;/p>
 &lt;ol>
-&lt;li>使用加密技术来保护交易的虚拟货币。它没有中央发行或监管机构，而是使用去中心化系统来记录交易并发行新货币。&lt;/li>
+&lt;li>使用加密技术来保护交易的虚拟货币。它没有中央发行或监管机构，而是使用&lt;font color="#ff0000">去中心化&lt;/font>系统（区块链）来记录交易并发行新货币。&lt;/li>
 &lt;li>加密货币运行在称为区块链的分布式公共分类账上，这是货币持有者更新和持有的所有交易的记录。&lt;/li>
 &lt;li>拥有加密货币，不会拥有任何有形的东西，而是有一个密钥，它允许在没有受信任的第三方的情况下，将记录或度量货币从一个人移动到另一个人。&lt;/li>
 &lt;/ol>
@@ -130,18 +130,193 @@
 &lt;li>网络中每个完全节点都拥有完整的区块链数据。并且，节点总是信任最长的区块链，伪造区块链需要拥有超过51%的全网算力。&lt;/li>
 &lt;/ol>
 &lt;p>&lt;strong>挖矿&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>以太坊&lt;/strong>
-1.&lt;/p>
+&lt;ol>
+&lt;li>在比特币的区块链网络中，有一类节点在不停地进行计算，试图把新的交易打包成新的区块并附加到区块链上，这类节点就是矿工。每打包一个新区块，该矿工就可以获得一笔比特币作为奖励。&lt;/li>
+&lt;li>比特币的挖矿原理就是一种工作量证明机制。工作量证明POW是英文Proof of Work的缩写。&lt;/li>
+&lt;li>根据比特币每个区块的难度值和产出时间，就可以推算出整个比特币网络的全网算力。当前约750EH/s（7.5万亿亿）&lt;/li>
+&lt;li>一个交易可能被打包到一个后续被孤立的区块中（两个矿工同时算出一个区块）。所以，要确认一个交易被永久记录到区块链中，需要对交易进行确认。如果后续的区块被追加到区块链上，实际上就会对原有的交易进行确认。
+&lt;ol>
+&lt;li>孤链上的交易作废，钱退回。&lt;/li>
+&lt;li>此时的交易可能会遭受 &lt;strong>双花攻击&lt;/strong>：攻击者向商家发送交易，商家确认后发货。同时，攻击者在另一条链上发起一笔冲突交易，将同一笔比特币发送给自己。如果攻击者成功让冲突交易所在的链成为主链，那么商家的交易将被撤销，导致损失。&lt;/li>
+&lt;li>链越长，修改难度越大。经过6个区块确认的交易几乎是不可能被修改的。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>区块链Layer-2&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Layer 2指基于 Layer 1 区块链的链下网络、系统或技术，目的是扩展底层区块链。Layer 2网络可以提升任何底层区块链的吞吐量以及其他性能。&lt;/li>
+&lt;li>区块链一层的基础能力：公开透明、去中心化、安全性、计算能力、性能（吞吐量）、存储、隐私等。为满足特定的需求， Layer 2区块链对基础能力进行取舍，会降低一些特性，甚至丢弃一些特性，而换取某些特性的显著提高。
+&lt;ol>
+&lt;li>一些二层为了提高性能，会降低去中心化的程度，会降低安全性；&lt;/li>
+&lt;li>一些二层为了增加吞吐量，如闪电网络，会改变系统的结构和结算的方式。&lt;/li>
+&lt;li>一些会不降低基础特性的前提下，增强了某种特性，例如 RGB 的处理方式，明显增加了隐私性和抗审查性，但增加了技术实现难度。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Layer 2网络有一个共同点，那就是在结算时都会向底层区块链提交某种可验证的加密证明，以证明状态变更的真实性。&lt;/li>
+&lt;li>主要技术路线：
+&lt;ol>
+&lt;li>&lt;strong>状态通道&lt;/strong>：让用户建立端到端加密的通道，促进了两个或多个参与方之间的多次链下交易，确保只有第一笔和最后一笔交易会记录在比特币区块链中，而无需将每笔交易都广播到主区块链。可以实现以尽可能低的 gas 费用，支持更大的交易吞吐量。&lt;/li>
+&lt;li>&lt;strong>侧链&lt;/strong>： 侧链是与主链并行运行但是分开的、独立的区块链，允许用户将资产（比特币）从主区块链转移到侧链。当比特币转移到侧链后，用户可以使用这些资产进行智能合约、代币发行或实现新的共识机制。侧链会验证比特币主区块链上的信息并执行后续操作。&lt;/li>
+&lt;li>&lt;strong>Rollup&lt;/strong>：将多个链下交易从主比特币链移到一个独立网络，处理后，再将一笔压缩后的交易提交回链上。与侧链不同的是，Rollup 会定期将区块提交到主链上，从而继承主链的安全性和去中心化特性，但平均交易处理量一般不如侧链。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>以太坊&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>以太坊（Ethereum）是一个支持智能合约的区块链平台，和比特币类似，以太坊也通过PoW进行挖矿，后改为PoS挖矿，其挖出的平台币叫以太币，它与比特币最大的不同是，以太坊通过一个虚拟机（EVM）可以运行智能合约。&lt;/li>
+&lt;li>以太坊账户负责存储用户的以太坊余额。对大多数普通用户（非合约账户）来说，以太坊账户和银行账户非常类似，用私钥控制。账户由4部分数据构成：
+&lt;ol>
+&lt;li>&lt;code>nonce&lt;/code>：一递增整数，记录的是交易次数，每次交易&lt;code>nonce&lt;/code> + &lt;code>1&lt;/code>。&lt;/li>
+&lt;li>&lt;code>balance&lt;/code>：记录的就是账户余额，以&lt;code>wei&lt;/code>为单位，1 Ether等于10&lt;sup>18&lt;/sup>&lt;code>wei&lt;/code>。&lt;/li>
+&lt;li>外部账户 &lt;code>storageRoot&lt;/code> &lt;code>codeHash&lt;/code> 是空的。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>以太坊存储账户数据的数据结构是MPT：Merkle Patricia Tree，它是一种改进的Merkle Tree。&lt;/li>
+&lt;li>一个以太坊区块由区块头和一系列交易构成。区块头除了记录parentHash（上一个区块的Hash）、stateRoot（世界状态）外，还包括：
+&lt;ul>
+&lt;li>sha3Uncles：记录引用的叔块；&lt;/li>
+&lt;li>transactionRoot：记录当前区块所有交易的Root Hash；&lt;/li>
+&lt;li>receiptsRoot：记录当前区块所有交易回执的Root Hash；&lt;/li>
+&lt;li>logsBloom：一个Bloom Filter，用于快速查找Log；&lt;/li>
+&lt;li>difficulty：挖矿难度值；&lt;/li>
+&lt;li>number：区块高度，严格递增的整数；&lt;/li>
+&lt;li>timestamp：区块的时间戳（以秒为单位）；&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>和比特币不同，分叉时，针对竞争失败的区块，以太坊鼓励后续的区块引用此废弃的区块，这种引用的废弃块被称为叔块（Uncle Block）。&lt;/li>
+&lt;/ol>
 &lt;h2 id="二演变">二、演变
-&lt;/h2>&lt;h2 id="三比特币交易">三、比特币交易
-&lt;/h2>&lt;ol>
-&lt;li>比特币的交易是一种无需信任中介参与的P2P（Peer-to-peer）交易。交易记录的是双方的公钥地址。&lt;/li>
-&lt;li>比特币实际的交易记录是由一系列交易构成，每一个交易都包含一个或多个输入，以及一个或多个输出。比特币协议规定一个输出必须&lt;font color="#ff0000">一次性花完&lt;/font>，一次&lt;/li>
-&lt;li>私钥本质是256位随机整数，以16进制表示共64字符，32字节，对私钥进行Base58编码，得到私钥地址，又称为钱包导入格式：WIF。&lt;/li>
-&lt;li>公钥根据私钥计算得出，不能根据公钥逆向计算私钥。比特币的地址并不是公钥，而是公钥的哈希。即从公钥能推导出地址，但从地址不能反推公钥。&lt;/li>
-&lt;li>交易过程使用。&lt;/li>
-&lt;li>比特币钱包用于发送和接收比特币，其实际上是帮助用户管理私钥的软件。用户可以生成任意数量的密钥对，公钥是接收别人转账的地址，私钥是花费比特币唯一手段。&lt;/li>
-&lt;li>和银行账户不同，比特币网络没有账户的概念，任何人都可以从区块链查询到任意公钥对应的比特币余额，但不知道这些公钥由谁持有的，也无法根据用户查询比特币余额。&lt;/li>
+&lt;/h2>&lt;p>&lt;a class="link" href="https://www.jinse.cn/blockchain/3665810.html" target="_blank" rel="noopener"
+>layer2演变&lt;/a>&lt;/p>
+&lt;h2 id="三实际项目">三、实际项目
+&lt;/h2>&lt;p>&lt;strong>虚拟币&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>比特币&lt;/strong>
+&lt;ul>
+&lt;li>最初的虚拟货币，2025年币值10万美元左右。&lt;/li>
+&lt;li>应用场景广泛，可直接购买ETF，暗网交易，甚至在一些国家可直接消费。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>以太币
+&lt;ul>
+&lt;li>比特币后，以太坊平台的本地加密货币。币值稳定在3000左右。&lt;/li>
+&lt;li>应用场景次于比特币。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>狗狗币
+&lt;ul>
+&lt;li>起初是作为一种搞笑的加密货币而创建的，但随著时间的推移逐渐获得了一定的社区支持和市场认可。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Layer2&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>闪电网络
+&lt;ul>
+&lt;li>一个建立在比特币上的Layer2解决方案，旨在解决比特币的可扩展性和低交易速度的问题。于 2015 年首次提出，并在 2018 年全面实施。&lt;/li>
+&lt;li>特点：快速、低成本和可扩展。它通过建立一系列的支付通道，使得比特币交易可以在通道内部进行，而不需要直接记录在区块链上。大大减少交易确认时间和交易费用，并支持大量并行交易。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Liquid
+&lt;ul>
+&lt;li>于 2015 年推出的一个侧链解决方案。旨在提供更快速、安全和私密的交易解决方案，以满足金融机构和交易平台等专业用户的需求。&lt;/li>
+&lt;li>特点：
+&lt;ul>
+&lt;li>&lt;strong>快速的交易确认时间&lt;/strong>。相比于比特币的确认时间约为 10 分钟，Liquid 的交易确认时间只需 2 分钟。使得用户能够更快地进行交易。&lt;/li>
+&lt;li>&lt;strong>交易私密性&lt;/strong>。Liquid 采用了 Confidential Transactions（机密交易）技术，使得交易金额得以隐藏，只有交易的参与方能够查看具体金额。&lt;/li>
+&lt;li>&lt;strong>具备更高的交易吞吐量&lt;/strong>。通过使用 Federated Peg（联邦锚定）技术，Liquid 能够支持大量并行的交易，并在比特币网络上进行锚定，实现与比特币的互操作性。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Rootstock
+&lt;ul>
+&lt;li>是一个建立在比特币上的智能合约平台，旨在为比特币生态系统提供类似以太坊的功能。&lt;/li>
+&lt;li>主要特点是与比特币的双向锚定和智能合约功能。通过与比特币的双向锚定，Rootstock 能够使用比特币作为其主要资产，实现安全性和稳定性。同时，Rootstock 支持智能合约功能，使开发者能够在其平台上构建和执行具有自动化功能的智能合约。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>交易所&lt;/strong>
+&lt;strong>加密货币交易所&lt;/strong>是一种业务，允许客户将&amp;quot;加密货币&amp;quot;与其他资产进行交易。&lt;/p>
+&lt;h2 id="四虚拟币交易">四、虚拟币交易
+&lt;/h2>&lt;h3 id="比特币">比特币
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>比特币的交易是一种无需信任中介参与的P2P（Peer-to-peer）交易。交易记录的是双方的公钥地址。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>比特币实际的交易记录是由一系列交易构成，每一个交易都可包含多个或一个输入（Input）或多个或一个输出（Output）。比特币协议规定一个输出必须&lt;font color="#ff0000">一次性花完&lt;/font>。&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>UTXO（Unspent Transaction Output，未花费交易输出）&lt;/strong> 是比特币网络中用于跟踪比特币所有权和转移的核心机制。每笔交易的输出都会生成新的 UTXO，这些 UTXO 可以被后续的交易作为输入花费。&lt;/li>
+&lt;li>&lt;strong>示例&lt;/strong>：假设 Alice 想发送 0.5 BTC 给 Bob。以下是交易的步骤：
+&lt;ol>
+&lt;li>Alice 之前收到了一笔交易，生成了一个 UTXO，价值 1 BTC。&lt;/li>
+&lt;li>&lt;strong>创建交易&lt;/strong>
+&lt;ol>
+&lt;li>&lt;strong>输入&lt;/strong>：Alice 花费她的 1 BTC UTXO。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;strong>输出&lt;/strong>：
+&lt;ol>
+&lt;li>0.5 BTC 发送给 Bob（生成一个新的 UTXO）。&lt;/li>
+&lt;li>0.49 BTC 返回给 Alice 作为找零（生成另一个新的 UTXO）。&lt;/li>
+&lt;li>0.01 BTC 作为交易费支付给矿工（不生成 UTXO，直接被销毁）。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;strong>交易后的 UTXO&lt;/strong>：
+&lt;ol>
+&lt;li>Alice 的 1 BTC UTXO 被花费，从 UTXO 集合中移除。&lt;/li>
+&lt;li>两个新的 UTXO 被创建：Bob 的 0.5 BTC UTXO；Alice 的 0.49 BTC UTXO。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;strong>特性&lt;/strong>：
+&lt;ol>
+&lt;li>&lt;strong>不可分割性&lt;/strong>：每个 UTXO 必须被一次性全部花费，不能部分花费。&lt;/li>
+&lt;li>&lt;strong>全局唯一性&lt;/strong>： 每个 UTXO 都有一个唯一的标识符。&lt;/li>
+&lt;li>&lt;strong>透明性&lt;/strong>： UTXO 状态都是公开的，任何人都可以查看比特币区块链来验证 UTXO 的存在和所有权。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>私钥本质是256位随机整数，以16进制表示共64字符，32字节，对私钥进行Base58编码，得到私钥地址，又称为钱包导入格式：WIF。（Bech32编码得到Segwit地址，可防范延展性攻击）。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>公钥根据私钥计算得出，不能根据公钥逆向计算私钥。比特币的地址并不是公钥，而是公钥的哈希。即从公钥能推导出地址，但从地址不能反推公钥。用户可以生成任意数量的密钥对，公钥是接收别人转账的地址，私钥是花费比特币唯一手段。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>和银行账户不同，比特币网络没有账户的概念，任何人都可以从区块链查询到任意公钥对应的比特币余额，但不知道这些公钥由谁持有的，也无法根据用户查询比特币余额。但是可以看到公钥地址有多少货币。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;font color="#ff0000">比特币钱包&lt;/font>用于发送和接收比特币，其实际上是帮助用户管理私钥的软件，钱包程序须从创世区块开始扫描每一笔交易，钱包的当前余额总是钱包地址关联的所有UTXO金额之和。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>交易过程使用。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>比特币交易的输出是一个&lt;font color="#ff0000">锁定脚本&lt;/font>，锁定脚本中引入了收款方的地址，而下一个交易的输入是一个解锁脚本，必须由本UXTO拥有者的私钥创建。输入有效，就可以花费该输出。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>为了避免一个私钥的丢失导致地址的资金丢失，比特币引入了&lt;font color="#ff0000">多重签名机制&lt;/font>，可以实现分散风险的功能。具体来说，就是假设N个人分别持有N个私钥，只要其中M个人同意签名就可以动用某个“联合地址”的资金。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="以太坊">以太坊
+&lt;/h3>&lt;ol>
+&lt;li>以太坊除了最基本的转账：即从一个账户支付Ether到另一个账户，还支持执行合约代码。合约代码是图灵完备的编程语言，通过EVM（以太坊虚拟机）执行。&lt;/li>
+&lt;li>在以太坊中，交易也需要手续费，手续费被称为Gas（汽油），它的计算比比特币要复杂得多。交易费等于总gasUsed * gasPrice。&lt;/li>
+&lt;li>&lt;font color="#ff0000">gasUsed&lt;/font>：为保证合约代码的可靠执行，以太坊给每一个虚拟机指令都标记了一个Gas基本费用。&lt;/li>
+&lt;li>&lt;font color="#ff0000">gasPrice&lt;/font>：以Gwei（1Gwei=10&lt;sup>9&lt;/sup>Wei）为单位。&lt;/li>
+&lt;li>一笔交易，先给出gasPrice和gasLimit，如果执行完成后有剩余，剩余的退还，如果执行过程中消耗殆尽，那么交易执行失败，但已执行的Gas不会退。&lt;/li>
+&lt;li>交易回执：以太坊区块每笔交易都会产生一笔回执（Recipt），表示交易的最终状态。包括：
+&lt;ol>
+&lt;li>status：执行结果，1表示成功，0表示失败；&lt;/li>
+&lt;li>gasUsed：已消耗的Gas数量；&lt;/li>
+&lt;li>txHash：交易Hash；&lt;/li>
+&lt;li>&amp;hellip;.&lt;/li>
+&lt;/ol>
+&lt;/li>
 &lt;/ol>
 &lt;h2 id="使用">使用
 &lt;/h2>&lt;h2 id="注意事项">注意事项
