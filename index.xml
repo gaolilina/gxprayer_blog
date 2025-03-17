@@ -346,4 +346,107 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://example.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/search/</guid><description/></item><item><title>关于</title><link>https://example.com/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>This is a test page for i18n support.&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://example.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/search/</guid><description/></item><item><title>工作项目梳理</title><link>https://example.com/p/%E5%B7%A5%E4%BD%9C%E9%A1%B9%E7%9B%AE%E6%A2%B3%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/p/%E5%B7%A5%E4%BD%9C%E9%A1%B9%E7%9B%AE%E6%A2%B3%E7%90%86/</guid><description>&lt;h2 id="基础设施">基础设施
+&lt;/h2>&lt;ul>
+&lt;li>Mysql
+&lt;ul>
+&lt;li>
+&lt;p>B端场景流量小，核心支付场景需要使用事务的方式保证一致性。同时考虑配合Redis分布式锁来实现一致性。（未使用过直接加Mysql锁的场景）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>C 端很多时候无需直接查询数据库，可以考虑加一层缓存。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>非写后立即读的场景，可以考虑读从库，主从复制延迟1秒以内。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>慢查询治理。是否走了索引。添加索引或优化查询。考虑覆盖索引的情况。尽量不用like。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>监听 binlog，二进制文件，数据的变更，执行后续的操作。&lt;/p>
+&lt;ul>
+&lt;li>每次刷数据都会触发逻辑，需要做好相关逻辑处理，加好监控。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>数据库基本使用InnoDB引擎（引擎作用于表，不同引擎存储，功能各不相同）。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>MVCC，多版本并发控制，默认隔离级别会有非一致性读问题，特殊场景需要加锁。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>InnoDB支持全文索引，虽部署简单，但过于基础，优先考虑ES。&lt;/p>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Redis
+&lt;ul>
+&lt;li>用于加锁，防止并发，B端常见用法。&lt;/li>
+&lt;li>内存-redis-数据库，三级缓存，数据回源。可将基础属性的查询耗时控制在数ms。
+&lt;ul>
+&lt;li>singleflight库，回源时一个实例只有一个协程去请求数据库。&lt;/li>
+&lt;li>不同实例的数据可能存在短暂的不一致。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>用于容灾，缓存结果。&lt;/li>
+&lt;li>保存临时性的数据，如定时任务等每日更新的数据。&lt;/li>
+&lt;li>redis队列，很少使用。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ES
+&lt;ul>
+&lt;li>复杂数据的召回。&lt;/li>
+&lt;li>稳定性。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MQ
+&lt;ul>
+&lt;li>B端常用。解耦操作。C端降低峰值流量。&lt;/li>
+&lt;li>完成一个操作，发送事件，让依赖方按需要处理对应的逻辑。（也可使用RPC回调的方式，按需要的格式实现RPC接口，管理起来更麻烦一些）&lt;/li>
+&lt;li>延迟发送功能。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ClickHouse
+&lt;ul>
+&lt;li>特点：查询数据量大，昂贵，大流量稳定性较差&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>CronJob&lt;/li>
+&lt;/ul>
+&lt;h2 id="c-端容灾">C 端容灾
+&lt;/h2>&lt;ul>
+&lt;li>背景： 活动，节假日，突发活动，场景流量激增，对服务造成很大压力。&lt;/li>
+&lt;li>表现：
+&lt;ul>
+&lt;li>服务CPU，内存被打满。&lt;/li>
+&lt;li>ES，数据库等基础设施组件无法支持如此大的流量。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>降级方案：
+&lt;ul>
+&lt;li>可按百分比对用户流量进行分流，减少压力。&lt;/li>
+&lt;li>对数据实时性要求不高的接口，在redis等地方，按场景的特征，设计key，直接缓存整个结果。返回给用户，避免白屏。&lt;/li>
+&lt;li>ES 召回，排序等场景设计兜底方案，流量激增时，打开开关，不在走ES，降低ES压力。&lt;/li>
+&lt;li>重点服务，针对关键步骤增加容灾方案，降级的逻辑，服务。&lt;/li>
+&lt;li>可考虑根据埋点，定时任务，针对关键场景进行降级。&lt;/li>
+&lt;li>TLB层降级方案每有接入过。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="服务稳定性">服务稳定性
+&lt;/h2>&lt;h2 id="车源排序召回打包">车源排序召回打包
+&lt;/h2>&lt;ul>
+&lt;li>背景：
+&lt;ul>
+&lt;li>二手车一些属性（如自营城市，车源数量）一直在动态变化，一些还需要根据计算得出（推荐理由，需要根据距离，城市，品牌信息等计算），不方便离线存储，且不方便离线召回。&lt;/li>
+&lt;li>随着二手车业务的发展，C端已经有将近20+的车源列表。不同列表文案、标签可能不同，很难复用，尤其是标签，B端各种商业化、活动的标签在快速迭代，每增加一个标签都需要新定义一个字段。同时各个车源列表的打包格式、字段定义都不统一，前后端维护成本极高。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>方案：&lt;/li>
+&lt;li>问题：&lt;/li>
+&lt;/ul>
+&lt;h2 id="feed-流二手车c端feed流推荐车源">feed 流，二手车C端feed流推荐车源
+&lt;/h2>&lt;h2 id="商业化付费">商业化付费
+&lt;/h2>&lt;h2 id="商家体系">商家体系
+&lt;/h2></description></item><item><title>关于</title><link>https://example.com/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>This is a test page for i18n support.&lt;/p></description></item></channel></rss>
